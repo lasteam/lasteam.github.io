@@ -78,6 +78,7 @@ header .hero h1 {
     background-image: url("/assets/img/ship-all.jpg");
 }
 .row {
+    min-height: 100%;
     overflow: visible;
 }
 .fg-no-gutter {
