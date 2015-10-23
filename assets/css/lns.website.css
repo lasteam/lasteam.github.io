@@ -25,9 +25,23 @@ a {
     color: #fff;
     font-size: 1.2em;
     font-weight: 200;
-    padding: 0 .5em;
     background: rgba(0, 0, 0, .5);
     z-index: 99;
+    transition: .5s all ease;
+}
+.brand h2 {
+    padding: 0 .5em;
+    display: inline-block;
+    font: inherit;
+    margin: 0;
+}
+.brand a {
+    background: #2196F3;
+    float: right;
+    padding: 0 .5em;
+    text-shadow: none;
+    color: #fff;
+    transition: .5s all ease;
 }
 header .hero {
     margin: 25vh 0;
@@ -71,13 +85,38 @@ header .hero h1 {
 }
 .padding-box {
     padding: 2em !important;
-    font-size: 1.2em;
+    font-size: .8em;
+    color: #555;
+    line-height: 1.6em;
 }
 .padding-box h2 {
     line-height: 2.5em;
     font-size: 2.2em;
     font-weight: 200;
+    color: #333;
 }
 .sd-black {
     border-color: #333;
+}
+.brand-head {
+    background: none;
+    text-shadow: 0 0 10px #333;
+    padding: 1em;
+}
+.brand-head a {
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+}
+@media (max-width: 1000px) {
+    .fg-no-gutter .img {
+        height: 50vh;
+        width: 100%;
+    }
+    .fg-no-gutter .padding-box {
+        width: 100%;
+        min-height: 50vh;
+        height: auto;
+    }
 }
