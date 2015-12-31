@@ -42,6 +42,7 @@ a {
     text-shadow: none;
     color: #fff;
     transition: .5s all ease;
+    border-right: 1px solid #fff;
 }
 header .hero {
     margin: 25vh 0;
@@ -109,6 +110,7 @@ header .hero h1 {
     border: 2px solid #fff;
     background: none;
     color: #fff;
+    margin: 0 1em;
 }
 @media (max-width: 1000px) {
     .fg-no-gutter .img {
