@@ -87,7 +87,7 @@ header .hero h1 {
 }
 .padding-box {
     padding: 2em !important;
-    font-size: .8em;
+    font-size: 1em;
     color: #555;
     line-height: 1.6em;
 }
@@ -126,4 +126,23 @@ header .hero h1 {
         min-height: 100vh;
         height: auto;
     }
+}
+.entry {
+    display: block;
+    color: #56a5eb;
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 2.2em;
+}
+.entry::after {
+    content: "";
+    display: inline-block;
+    width: .6em;
+    height: .6em;
+    border-right: 2px solid  #56a5eb;
+    border-bottom: 2px solid  #56a5eb;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
